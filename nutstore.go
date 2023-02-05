@@ -37,7 +37,7 @@ func Opener(_ context.Context, addr string) (blob.Store, error) {
 
 // Open creates a Store by opening the NutsDB specified by opts.
 func Open(path string, opts *Options) (Store, error) {
-	db, err := nutsdb.Open(nutsdb.DefaultOptions, nutsdb.WithDir(path), nutsdb.WithSyncEnable(false))
+	db, err := nutsdb.Open(nutsdb.DefaultOptions, nutsdb.WithDir(path))
 	if err != nil {
 		return Store{}, err
 	}
