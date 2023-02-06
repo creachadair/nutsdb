@@ -18,6 +18,7 @@ package nutstore
 import (
 	"context"
 	"errors"
+	"strings"
 
 	"github.com/creachadair/ffs/blob"
 	"github.com/xujiajun/nutsdb"
@@ -32,6 +33,9 @@ type Store struct {
 // Opener constructs a store backed by NutsDB from an address comprising a
 // path, for use with the store package.
 func Opener(_ context.Context, addr string) (blob.Store, error) {
+	if bucket, path, ok := strings.Cut(addr, "@"); ok {
+		return Open(path, &Options{Bucket: bucket})
+	}
 	return Open(addr, nil)
 }
 
