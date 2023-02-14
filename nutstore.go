@@ -147,6 +147,8 @@ func (s Store) List(ctx context.Context, start string, f func(string) error) err
 				return nil
 			} else if err != nil {
 				return err
+			} else if err := ctx.Err(); err != nil {
+				return err
 			}
 			if err := f(string(it.Entry().Key)); err != nil {
 				return err
