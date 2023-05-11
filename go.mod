@@ -3,7 +3,7 @@ module github.com/creachadair/nutstore
 go 1.20
 
 require (
-	github.com/creachadair/ffs v0.0.1
+	github.com/creachadair/ffs v0.0.2
 	github.com/xujiajun/nutsdb v0.11.1
 )
 

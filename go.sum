@@ -1,8 +1,8 @@
 github.com/bwmarrin/snowflake v0.3.0 h1:xm67bEhkKh6ij1790JB83OujPR5CzNe8QuQqAgISZN0=
 github.com/bwmarrin/snowflake v0.3.0/go.mod h1:NdZxfVWX+oR6y2K0o6qAYv6gIOP9rjG0/E9WsDpxqwE=
 github.com/cespare/xxhash/v2 v2.1.2/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
-github.com/creachadair/ffs v0.0.1 h1:/wJO6dBnZJOrrocMw8sCpK/CHjG9brSyykAUxbPS6hw=
-github.com/creachadair/ffs v0.0.1/go.mod h1:5dZMjVOeTblmzX9KcF9PXde3kw+oX77UDCvU6hPasFQ=
+github.com/creachadair/ffs v0.0.2 h1:j9awEG+5qIWeI3+bCnXlbQ2d/w8QFLCZr/rSqtTN6aE=
+github.com/creachadair/ffs v0.0.2/go.mod h1:Ju4LDYjpZ++XLsAu/RU77Y7cvG7y7BFO7IDtT5ef0RE=
 github.com/creachadair/mds v0.0.1 h1:2nX6Sww4dXpScx3b6aYjH1n7iuEH715+jj+cKkKw9BY=
 github.com/creachadair/mds v0.0.1/go.mod h1:caBACU+n1Q/rZ252FTzfnG0/H+ZUi+UnIQtEOraMv/g=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
